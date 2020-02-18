@@ -1,0 +1,82 @@
+body{
+	text-align: center;
+}
+
+
+#fullpageMenu{/*ul*/
+	font-size: 1.5em;
+	list-style-type: none;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	text-align: center;
+	margin-left: 13%;
+
+	
+}
+/*p{
+	margin-top: 800px;
+}*/
+
+#fullpageMenu li a{
+	text-decoration: none;
+	color: black;
+	font-family: "微软雅黑";
+	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
+	padding-left:2.9em;
+	
+}
+#fullpageMenu li a:hover{
+	text-decoration: none;
+	color: gray;
+	font-family: "微软雅黑";
+	
+}
+#fullpageMenu li{
+	float: left;
+	
+}
+
+
+.slide.slide1{
+	background-image: url(../img/首页1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slide.slide2{
+	background-image: url(../img/高峰论坛首页.jpg);;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slide.slide3{
+	background-image: url(../img/首页2.jpg);
+		background-repeat: no-repeat;
+	 background-attachment: fixed
+}
+.slide.slide4{
+	background-image: url(../img/首页4.jpg);
+		background-repeat: no-repeat;
+	 background-attachment: fixed
+}
+.section.section3{
+	background-image: url(../img/背景图1.jpg);;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section.section2{
+	background-image: url(../img/一带一路.jpg);;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section.section4{
+	background-image: url(../img/背景地图浅.jpg);;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section.section5{
+	background-image: url(../img/总背景黄版.jpg);;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}

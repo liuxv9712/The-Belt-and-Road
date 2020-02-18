@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.7/jquery.fullPage.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.7/jquery.fullPage.js"></script>
+		<script src="https://cdn.bootcss.com/move.js/0.5.0/move.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		
+		<link rel="stylesheet" type="text/css" media="screen and (max-device-width:500px)" href="tinyScreen.css" />
+	
+		<title>一带一路</title>
+	</head>
+	<body>  
+	
+			<ul id="fullpageMenu">
+				<li data-menuanchor="pag1" class="active"><a href="#page1">首页</a></li>
+				<li data-menuanchor="pag2"><a href="#page2">一带一路</a></li>
+				<li data-menuanchor="pag3"><a href="#page3">丝绸之路</a></li>
+				<li data-menuanchor="pag4"><a href="#page4">新闻动态</a></li>
+				<li data-menuanchor="pag5"><a href="#page5">战略意义</a></li>
+				<li data-menuanchor="pag6"><a href="#page6">联系我们</a></li>
+				
+			</ul>
+		
+			
+		<div id='fullpage'>
+			
+			<div class="section section1">
+				<div class="slide slide1"></div>
+				<div class="slide slide2"></div>
+				<div class="slide slide3"></div>
+				<div class="slide slide4"></div>
+			</div>
+			<div class="section section2">
+				<h1>一带一路</h1>
+				<p>
+					“一带一路”（英文：The Belt and Road，缩写B&R）是“丝绸之路经济带”和“21世纪海上丝绸之路”的简称。
+					它将充分依靠中国与有关国家既有的双多边机制，借助既有的、行之有效的区域合作平台，
+					一带一路旨在借用古代丝绸之路的历史符号，高举和平发展的旗帜，积极发展与沿线国家的经济合作伙伴关系，
+					共同打造政治互信、经济融合、文化包容的利益共同体、命运共同体和责任共同体。
+				</p>
+			</div>
+			<div class="section section3">丝绸之路</div>
+			<div class="section section4">新闻动态</div>
+			<div class="section section5">战略意义</div>
+			<div class="section section6">联系我们</div>
+		</div>
+		
+		<script>
+			$(document).ready(function(){
+				$('#fullpage').fullpage({
+					anchors:['page1','page2','page3','page4','page5','page6'],
+					menu:'fullpageMenu',
+					navigation:true,
+//					navigationTooltips:['首页','一带一路','丝绸之路','新闻动态','战略意义','联系我们'],
+					scrollBar:true,
+//					verticalCentered:true,
+					controlArrowColor:'gray',
+					resize:true,
+					scrollingSpeed:1000,
+					fixedElements:'#fullpageMenu',
+					sildesNavigation:false,
+//					afterLoad:function(section,index){
+//						switch(index){
+//							case 1:
+//						
+//							break;
+//							
+//							case 2:
+//								move('.section2 h1').scale(1.5).end();
+//								move('.section2 p').set('margin-top','5%').end();
+//							break;
+//							
+//							case 3:
+//							
+//							break;
+//							
+//							case 4:
+//							break;
+//							
+//							case 5:
+//							break;
+//							
+//							case 6:
+//							break;
+//							
+//							default:
+//							break;
+//						}
+//					}
+					//loopHorizontal:
+				});
+				
+//				 setInterval(function(){
+//    			  $.fn.fullpage.moveSlideRight();
+// 				 }, 3000);
+   				 
+				});
+				
+				
+			
+		</script>
+	</body>
+</html>
